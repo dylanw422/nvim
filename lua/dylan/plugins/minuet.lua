@@ -8,8 +8,9 @@ return {
 					api_key = "TERM",
 					name = "Ollama",
 					end_point = "http://localhost:11434/v1/completions",
-					model = "deepseek-coder:6.7b",
+					model = "deepseek-coder-v2:16b",
 				},
+				n_completions = 1,
 			})
 		end,
 	},
