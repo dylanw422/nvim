@@ -62,15 +62,15 @@
 -- }
 --
 -- MOONFLY
-return {
-	"bluz71/vim-moonfly-colors",
-	name = "moonfly",
-	lazy = false,
-	priority = 1000,
-	config = function()
-		vim.cmd([[colorscheme moonfly]])
-	end,
-}
+-- return {
+-- 	"bluz71/vim-moonfly-colors",
+-- 	name = "moonfly",
+-- 	lazy = false,
+-- 	priority = 1000,
+-- 	config = function()
+-- 		vim.cmd([[colorscheme moonfly]])
+-- 	end,
+-- }
 --
 -- NIGHTFLY
 -- return {
@@ -84,3 +84,34 @@ return {
 -- 		end,
 -- 	},
 -- }
+--
+-- ROSE PINE
+-- return {
+-- 	"rose-pine/neovim",
+-- 	name = "rose-pine",
+-- 	config = function()
+-- 		vim.cmd("colorscheme rose-pine")
+-- 	end,
+-- }
+--
+-- GITHUB NVIM
+-- return {
+-- 	"projekt0n/github-nvim-theme",
+-- 	name = "github-nvim",
+-- 	lazy = false,
+-- 	priority = 1000,
+-- 	config = function()
+-- 		vim.cmd([[colorscheme github_dark_dimmed]])
+-- 	end,
+-- }
+--
+-- ONE DARK
+return {
+	"olimorris/onedark.nvim",
+	name = "onedark",
+	lazy = false,
+	priority = 1000,
+	config = function()
+		vim.cmd([[colorscheme onedark]])
+	end,
+}
